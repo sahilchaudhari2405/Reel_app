@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:reel_app/main.dart';
-import 'package:intl_phone_number_input/intl_phone_number_input.dart';
+import 'package:reel_app/verification_screen.dart';
 
 class Login_page extends StatefulWidget {
   const Login_page({super.key});
@@ -51,9 +51,16 @@ class _Login_pageState extends State<Login_page> {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  setState(() {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (_) => verification_screen()));
+                  });
+                },
                 child: Container(
-                  height: mq.height * 0.05,
+                  height: mq.height * 0.06,
                   padding: EdgeInsets.all(8.0),
                   alignment: Alignment.center,
                   child: Text("NEXT"),
