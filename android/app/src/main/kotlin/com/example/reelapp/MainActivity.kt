@@ -1,4 +1,4 @@
-package com.example.reel_app
+package com.example.reelapp
 
 import io.flutter.embedding.android.FlutterActivity
 

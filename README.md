@@ -1,4 +1,4 @@
-# reel_app
+# reelapp
 
 A new Flutter project.
 

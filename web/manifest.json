@@ -1,6 +1,6 @@
 {
-    "name": "reel_app",
-    "short_name": "reel_app",
+    "name": "reelapp",
+    "short_name": "reelapp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
